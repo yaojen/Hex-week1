@@ -17,8 +17,9 @@ document.getElementById('addTodo').addEventListener('click', function () {
 document.getElementById('clearTask').addEventListener('click', function (e) {
   e.preventDefault();
   todoData = [];
-  document.getElementById('todoList').innerHTML = '';
-  document.getElementById('taskCount').textContent = todoData.length;
+  render();
+  //document.getElementById('todoList').innerHTML = '';
+  //document.getElementById('taskCount').textContent = todoData.length;
 });
 
 
