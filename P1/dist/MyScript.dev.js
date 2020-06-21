@@ -4,8 +4,7 @@ var todoData = []; //tod 資料
 //新增todo動作
 
 document.getElementById('addTodo').addEventListener('click', function () {
-  var str = '';
-
+  //var str = '';
   if (document.getElementById('newTodo').value.trim() !== '') {
     todoData.push({
       id: Math.floor(Date.now()),
