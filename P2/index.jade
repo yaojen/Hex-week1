@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="normalize.css")
+        link(rel="stylesheet", href="Mystyle.css")
+        title TodoList
+    body
+        .container
+            .row
+                label(for="Ctodo" id="CtodoL") 代辦事項
+                input(type="text" id="CtodoI")
+                button.add(id="CtodoB") 新增
+            .row
+                ul.list(id="list")
+            .row.clearfix
+                .left 還剩下幾筆
+                .right 
+                    button.clearall 清除所有資料

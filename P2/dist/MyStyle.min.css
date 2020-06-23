@@ -1,0 +1,1 @@
+*{border:1px solid #000;box-sizing:border-box}body,html{margin:0;padding:0;width:100%;height:100%}.container{width:652px;margin-left:auto;margin-right:auto;margin-top:50px}#CtodoL{width:90px}#CtodoI{width:500px}#CtodoB{width:60px}.left{float:left}.right{float:right}.clearfix::after{content:"";clear:both;display:table}
