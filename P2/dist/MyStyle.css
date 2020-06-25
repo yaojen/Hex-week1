@@ -11,7 +11,7 @@ html, body {
 }
 
 .container {
-  width: 652px;
+  width: 452px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
@@ -22,7 +22,7 @@ html, body {
 }
 
 #CtodoI {
-  width: 500px;
+  width: 300px;
 }
 
 #CtodoB {
@@ -41,4 +41,8 @@ html, body {
   content: "";
   clear: both;
   display: table;
+}
+
+.finished {
+  text-decoration: line-through;
 }

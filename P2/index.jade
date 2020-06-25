@@ -15,6 +15,12 @@ html(lang="en")
             .row
                 ul.list(id="list")
             .row.clearfix
-                .left 還剩下幾筆
+                .left
+                    |還剩下
+                    span(id="count") 0
+                    |筆
                 .right 
-                    button.clearall 清除所有資料
+                    button.clearAll(id="clearAll") 清除所有資料
+            .row
+                ul.finished(id="finished")
+        script(type="text/javascript" src="main.js")
